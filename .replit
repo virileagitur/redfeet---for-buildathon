@@ -1,4 +1,9 @@
+modules = ["nodejs-lts", "typescript"]
+
 run = "npm run dev"
+
+[nix]
+channel = "stable-24_05"
 
 [build]
 command = "npm run build"
